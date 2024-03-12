@@ -23,4 +23,5 @@ public class HelloWorldControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("Hello world")));
     }
+
 }
